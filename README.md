@@ -5,7 +5,7 @@ Provides a window.url imitation class and url-related utilities.
 
 ### URL class
 ```
-import { URL } from 'as-url/assembly' 
+import { URL } from "@rockhouse/as-url/assembly"
 
 const url = new URL("https://user:pass@localhost:8080/path?query#fragment")
 url.isValid // true
@@ -23,7 +23,7 @@ url.hash // #fragment
 
 ### UriParser class
 ```
-import { UriParser } from 'as-url/assembly' 
+import { UriParser } from "@rockhouse/as-url/assembly"
 
 const components = new UriParser().parse("https://user:pass@localhost:8080/path?query#fragment")
 components.scheme // https

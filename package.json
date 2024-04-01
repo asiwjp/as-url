@@ -1,6 +1,6 @@
 {
   "name": "@rockhouse/as-url",
-  "version": "0.1.2",  
+  "version": "0.1.3",  
   "description": "Provides WebAPI URL imitation classes and related utilities for assemblyscript.",
   "license": "Apache-2.0",
   "author": "Akira Saito",
