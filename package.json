@@ -1,0 +1,19 @@
+{
+  "name": "as-url",
+  "version": "0.1.0",  
+  "description": "Provides a window.url imitation class and url-related utilities.",
+  "license": "Apache-2.0",
+  "author": "Akira Saito",
+  "keywords": ["assemblyscript", "url"],
+  "scripts": {
+    "test": "npx asp",
+    "asbuild:debug": "asc assembly/index.ts --target debug",
+    "asbuild:release": "asc assembly/index.ts --target release",
+    "asbuild": "npm run asbuild:debug && npm run asbuild:release"
+  },
+  "devDependencies": {
+    "@as-pect/cli": "^8.1.0",
+    "assemblyscript": "^0.27.25"
+  },
+  "type": "module"
+}
