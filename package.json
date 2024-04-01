@@ -1,19 +1,21 @@
 {
-  "name": "as-url",
-  "version": "0.1.0",  
-  "description": "Provides a window.url imitation class and url-related utilities.",
+  "name": "@rockhouse/as-url",
+  "version": "0.1.1",  
+  "description": "Provides WebAPI URL imitation classes and related utilities for assemblyscript.",
   "license": "Apache-2.0",
   "author": "Akira Saito",
   "keywords": ["assemblyscript", "url"],
   "scripts": {
-    "test": "npx asp",
-    "asbuild:debug": "asc assembly/index.ts --target debug",
-    "asbuild:release": "asc assembly/index.ts --target release",
-    "asbuild": "npm run asbuild:debug && npm run asbuild:release"
+    "test": "npx asp"
   },
   "devDependencies": {
     "@as-pect/cli": "^8.1.0",
     "assemblyscript": "^0.27.25"
   },
-  "type": "module"
+  "type": "module",
+  "homepage": "https://github.com/asiwjp/as-url",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asiwjp/as-url.git"
+  }
 }
